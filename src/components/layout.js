@@ -33,10 +33,10 @@ const Layout = props => {
                 <Link to={`/about`}>About</Link>
               </li>
               <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+                <Link to={`/tags/galactic-marathon`}>Galactic Marathon</Link>
               </li>
               <li className="nav-tags" role="menuitem">
-                <Link to={`/tags`}>Tags</Link>
+                <Link to={`/tags/other-stories`}>Other Stories</Link>
               </li>
             </ul>
           </nav>
@@ -48,20 +48,20 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
-                title="Facebook"
+                href="https://nomanssky.gamepedia.com/The_Qitanian_Empire"
+                title="The Qitanian Empire"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                The Qitanian Empire
               </a>
               <a
-                href="https://twitter.com"
-                title="Twitter"
+                href="https://www.nomanssky.com/"
+                title="No Man's Sky"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                No Man's Sky
               </a>
               <Link
                 to={`/rss.xml`}
@@ -72,7 +72,7 @@ const Layout = props => {
                 RSS
               </Link>
               <a
-                href="https://github.com/vaporwavy/gatsby-london-after-midnight"
+                href="https://github.com/rosareven/GalacticMarathon"
                 title="GitHub"
                 target="_blank"
                 rel="noopener noreferrer"
